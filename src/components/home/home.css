@@ -1,0 +1,28 @@
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 10rem;
+    padding-top: 10rem;
+}
+
+.home-content h1 {
+    font-size: 42px;
+}
+
+.home-content button {
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    margin-block: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-content {
+        padding-left: 2rem;
+        font-size: 10px;
+    }
+    .home-content h1 {
+        font-size: 26px;
+    }
+}
